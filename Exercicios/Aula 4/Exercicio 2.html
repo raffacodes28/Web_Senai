@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Formulario</h1>
+
+<form>
+  <label for="input_nome">Nome do Produto</label>
+  <input id="input_nome" type="text" required>
+  <br><br>
+
+  <label><strong>Categoria</strong></label><br>
+  <input id="radio_e" type="radio" value="Eletrônicos" name="categoria">
+  <label for="radio_e">Eletrônicos</label>
+  <input id="radio_l" type="radio" value="Livros" name="categoria">
+  <label for="radio_l">Livros</label>
+  <input id="radio_b" type="radio" value="Brinquedos" name="categoria">
+  <label for="radio_b">Brinquedos</label>
+  <input id="radio_es" type="radio" value="Esportes" name="categoria">
+  <label for="radio_es">Esportes</label>
+  <input id="radio_c" type="radio" value="Calçados" name="categoria">
+  <label for="radio_e">Calçados</label>
+  <br><br>
+
+  <label for="text_descricao">Descrição</label><br>
+  <textarea id="text_descricao" cols="50" rows="10"></textarea>
+  <br><br>
+
+  <label for="menu_pais">Pais de Fabricação</label>
+  <select id="menu_pais">
+    <option>China</option>
+    <option>EUA</option>
+    <option>Brasil</option>
+    <option>Mexico</option>
+    <option>Russia</option>
+  </select>
+
+  <br><br>
+
+  <label for="input_preco">Preço</label><br>
+  <input id="input_preco" type="number" required>
+  <br><br>
+
+  <label for="input_data">Data de Fabricação</label><br>
+  <input id="input_data" type="date" required>
+  <br><br>
+
+  <button type="submit">Regristrar</button>
+  <button type="reset">Redefinir</button>
+</form>
+</body>
+</html>
