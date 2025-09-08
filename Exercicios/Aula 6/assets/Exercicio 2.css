@@ -1,0 +1,44 @@
+body {
+    background-color: yellow;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 70px;
+}
+
+li {
+    color: green;
+    background-color: gray;
+    font-size: 32px;
+}
+
+.vermelho {
+    color: red;
+    text-align: center;
+}
+
+.azul {
+    color: blue;
+    text-align: end;
+}
+
+.roxo {
+    color: purple;
+    text-align: center;
+}
+
+.amarelo {
+    color: yellow;
+    text-align: left;
+}
+
+.rosa {
+    color: pink;
+    text-align: center;
+}
+
+ul {
+    background-color: white;
+}

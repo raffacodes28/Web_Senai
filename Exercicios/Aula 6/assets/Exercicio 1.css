@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: red;
+}
+
+.text-black{
+    color: white;
+    background-color: red;
+}
+
+#text-maior {
+    font-size: 36px;
+    font-family: Arial;
+    display: inline;
+}
