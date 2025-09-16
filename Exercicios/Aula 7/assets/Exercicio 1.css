@@ -1,0 +1,40 @@
+div {
+    height: 100px;
+    background-color: green;
+    text-align: center;
+}
+
+.azul {
+    height: 200px;
+    width: 49.7%;
+    background-color: blue;
+    text-align: center;
+    display: inline-block;
+}
+
+.amarelo {
+    height: 200px;
+    width: 49.7%;
+    background-color: yellow;
+    text-align: center;
+    float: right;
+    display: inline-block;
+}
+
+.verde {
+    height: 100px;
+    background-color: green;
+    text-align: center;
+}
+
+.lightblue {
+    height: 360px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+
+
+
+
+
